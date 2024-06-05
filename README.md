@@ -10,11 +10,11 @@
 - 각 게시글별 멤버 아이디를 통해 토큰과 비교를 하여 본인 게시글 수정 / 삭제도 가능하게 합니다.
 
 ###  회원가입
-![signup.png](..%2F..%2F..%2F..%2F..%2Fvar%2Ffolders%2F_m%2F5tvyy7m14h72y5j66j9xf2yr0000gn%2FT%2FTemporaryItems%2FNSIRD_screencaptureui_GxOhV8%2F%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202024-06-05%20%EC%98%A4%EC%A0%84%2011.54.25.png)
+![SignUp](sign-up.png)
 ### 로그인
-![signin.png](..%2F..%2F..%2F..%2F..%2Fvar%2Ffolders%2F_m%2F5tvyy7m14h72y5j66j9xf2yr0000gn%2FT%2FTemporaryItems%2FNSIRD_screencaptureui_VCRgis%2F%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202024-06-05%20%EC%98%A4%EC%A0%84%2011.55.40.png)
+![SignIn](SignIn.PNG)
 ### 게시판
-![board.png](..%2F..%2F..%2F..%2F..%2Fvar%2Ffolders%2F_m%2F5tvyy7m14h72y5j66j9xf2yr0000gn%2FT%2FTemporaryItems%2FNSIRD_screencaptureui_TOZ3wP%2F%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202024-06-05%20%EC%98%A4%EC%A0%84%2011.56.38.png)
+![board](board.png)
 
 ### Main Server Use
 
