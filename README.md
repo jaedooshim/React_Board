@@ -12,7 +12,7 @@
 ###  회원가입
 ![SignUp](sign-up.png)
 ### 로그인
-![SignIn](SignIn.PNG)
+![SignIn](sign-in.png)
 ### 게시판
 ![board](board.png)
 
