@@ -1,46 +1,28 @@
-# Getting Started with Create React App
+# 프론트 게시판 구현하기
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## FrontEnd - 심재두
 
-## Available Scripts
+## #프로젝트 소개
+- 회원가입/ 로그인/ 게시글 작성이 있는 웹페이지입니다.
+- 로그인을 할 경우 로컬스토리지 대신 쿠키에 유저의 토큰값을 담습니다.
+- 서버단에서는 목적성에 맞게 가드를 설정하였고 기본적인 CRUD를 구현하였습니다.
+- 게시글 작성시 로그인을 했을 때의 토큰값이 필요하고 토큰이 없을 경우 작성을 하지 못합니다.
+- 각 게시글별 멤버 아이디를 통해 토큰과 비교를 하여 본인 게시글 수정 / 삭제도 가능하게 합니다.
 
-In the project directory, you can run:
+###  회원가입
+![signup.png](..%2F..%2F..%2F..%2F..%2Fvar%2Ffolders%2F_m%2F5tvyy7m14h72y5j66j9xf2yr0000gn%2FT%2FTemporaryItems%2FNSIRD_screencaptureui_GxOhV8%2F%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202024-06-05%20%EC%98%A4%EC%A0%84%2011.54.25.png)
+### 로그인
+![signin.png](..%2F..%2F..%2F..%2F..%2Fvar%2Ffolders%2F_m%2F5tvyy7m14h72y5j66j9xf2yr0000gn%2FT%2FTemporaryItems%2FNSIRD_screencaptureui_VCRgis%2F%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202024-06-05%20%EC%98%A4%EC%A0%84%2011.55.40.png)
+### 게시판
+![board.png](..%2F..%2F..%2F..%2F..%2Fvar%2Ffolders%2F_m%2F5tvyy7m14h72y5j66j9xf2yr0000gn%2FT%2FTemporaryItems%2FNSIRD_screencaptureui_TOZ3wP%2F%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202024-06-05%20%EC%98%A4%EC%A0%84%2011.56.38.png)
 
-### `npm start`
+### Main Server Use
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+```bash
+npm start
+```
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Install
+```angular2html
+npm i | npm install
+```
